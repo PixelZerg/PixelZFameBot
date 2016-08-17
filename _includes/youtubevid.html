@@ -1,1 +1,8 @@
-<div class="centerwrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/{{ include.code }}" frameborder="0" class="center" allowfullscreen></iframe></div>
+<div class="centerwrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/{{ include.code }}" frameborder="0" class="center" id="yt{{ include.code }}" allowfullscreen></iframe></div>
+<script>
+//by PixelZerg
+window.addEventListener('resize', function(event){
+	var elem = document.getElementById("yt{{ include.code }}")[0]
+	elem.setAttribute("width", elem.parentElement.clientWidth);
+});
+</script>
