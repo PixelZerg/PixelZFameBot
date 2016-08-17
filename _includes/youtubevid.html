@@ -2,8 +2,12 @@
 <script>
 //by PixelZerg
 window.addEventListener('resize', function(event){
+	resizeVideo();
+});
+function resizeVideo(){
 	var elem = document.getElementById("{{ include.code }}");
 	elem.setAttribute("width", elem.parentElement.clientWidth);
     elem.setAttribute("height", elem.parentElement.clientWidth*9/16);
-});
+}
+resizeVideo();
 </script>
