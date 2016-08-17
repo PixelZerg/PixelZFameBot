@@ -5,3 +5,14 @@
 html {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.center * {
+    text-align: center;
+}
