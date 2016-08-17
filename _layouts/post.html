@@ -4,7 +4,7 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{% assign d = page.date | date: "%-d" %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}{% assign m = page.date | date: "%B" %}{% case m %}{% when 'April' or 'May' or 'June' or 'July' %}{{ m }}{% when 'September' %}Sept.{% else %}{{ page.date | date: "%b" }}.{% endcase %}{{ page.date | date: '%Y - %I:%M %p' }}</span>
+  <span class="post-date">{% assign d = page.date | date: "%-d" %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %} {% assign m = page.date | date: "%B" %}{% case m %}{% when 'April' or 'May' or 'June' or 'July' %}{{ m }}{% when 'September' %}Sept.{% else %}{{ page.date | date: "%b" }}.{% endcase %} {{ page.date | date: '%Y - %I:%M %p' }}</span>
   {{ content }}
 </div>
 {% include disqus.html %}
@@ -16,7 +16,7 @@ layout: default
         <h3>
           <a href="{{ site.url }}{{ post.url }}">
             {{ post.title }}
-            <small>{% assign d = post.date | date: "%-d" %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}{% assign m = post.date | date: "%B" %}{% case m %}{% when 'April' or 'May' or 'June' or 'July' %}{{ m }}{% when 'September' %}Sept.{% else %}{{ post.date | date: "%b" }}.{% endcase %}{{ post.date | date: '%Y - %I:%M %p' }}</small>
+            <small>{% assign d = post.date | date: "%-d" %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %} {% assign m = post.date | date: "%B" %}{% case m %}{% when 'April' or 'May' or 'June' or 'July' %}{{ m }}{% when 'September' %}Sept.{% else %}{{ post.date | date: "%b" }}.{% endcase %} {{ post.date | date: '%Y - %I:%M %p' }}</small>
           </a>
         </h3>
       </li>

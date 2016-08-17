@@ -11,7 +11,7 @@ layout: default
       </a>
     </h1>
 
-    <span class="post-date">{% assign d = post.date | date: "%-d" %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}{% assign m = post.date | date: "%B" %}{% case m %}{% when 'April' or 'May' or 'June' or 'July' %}{{ m }}{% when 'September' %}Sept.{% else %}{{ post.date | date: "%b" }}.{% endcase %}{{ post.date | date: '%Y - %I:%M %p' }}</span>
+    <span class="post-date">{% assign d = post.date | date: "%-d" %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %} {% assign m = post.date | date: "%B" %}{% case m %}{% when 'April' or 'May' or 'June' or 'July' %}{{ m }}{% when 'September' %}Sept.{% else %}{{ post.date | date: "%b" }}.{% endcase %} {{ post.date | date: '%Y - %I:%M %p' }}</span>
 
       {% if post.description %}{{ post.description | markdownify }}<a href="{{ site.url }}{{ post.url }}">Read More</a>{% else %}{{ post.content }}{% endif %}
   </div>
