@@ -13,7 +13,7 @@ layout: default
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-      {% if post.description %}<p>{{ post.description | markdownify }}</p><a href="{{ site.url }}{{ post.url }}">Read More</a>{% else %}{{ post.content }}{% endif %}
+      {% if post.description %}<p>{{ post.description | markdownify }}... <a href="{{ site.url }}{{ post.url }}">Read More</a></p>{% else %}{{ post.content }}{% endif %}
   </div>
   {% endfor %}
 </div>
