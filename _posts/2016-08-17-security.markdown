@@ -3,8 +3,8 @@ title: Security
 layout: post
 date: 2016-08-17 16:40:45
 description: |
-    <p>I take security very seriously. Here I shall outline the various measures that I will be taking to ensure a secure system.</p>
-    <p>To authenticate with my server, you will need to sign in to my server with your email and a password. They will both be encrypted with powerful **AES encryption**. Not only this, but the password will also be **hashed** and **salted** on top of that heavy encryption</p>
+    I take security very seriously. Here I shall outline the various measures that I will be taking to ensure a secure system.<br><br>
+    To authenticate with my server, you will need to sign in to my server with your email and a password. They will both be encrypted with powerful **AES encryption**. Not only this, but the password will also be **hashed** and **salted** on top of that heavy encryption
 ---
 
 I take security very seriously. Here I shall outline the various measures that I will be taking to ensure a secure system.
