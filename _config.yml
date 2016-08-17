@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rogue
 
 # Permalinks
-permalink:        pretty
+permalink:          /:categories/:year/:month/:title/
 
 # Setup
 title:            PixelZFameBot
