@@ -13,4 +13,4 @@ There is going to be a bridge server that will be running locally on your comput
 
 In the future, I may also provide an automatic fame training service in which the .swf is run on my servers as well. For now, however, you will have to run the .swf on your computer yourself - you might also want to keep your computer running. Don't worry, though, the .swf file will be able to run in the background and minimised. If you are using the .ahk script that I mentioned, however, the script will bring the window into focus from time to time to check if you have been disconnected and to press the "Play" button.
 
-If you would like, I will also be willing to provide my modified .swf that also does not display your name in the GUI anywhere (apart from if you speak in the public chat).
+If you would like, I will also be willing to provide my modified .swf that also does not display your name in the GUI anywhere (apart from if you speak in the public chat). Also, if you want, you can check the code of the modified .swf. It will not contain anything malicious. After all, <a href="{{ site.url }}/2016/08/serviceinformation/">I take security very seriously</a>
