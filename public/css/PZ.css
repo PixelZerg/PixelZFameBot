@@ -13,3 +13,8 @@ html {
 .centerwrapper * {
     display: inline-block;
 }
+
+.page-title, .post-title, .post-title a {
+    /*color: #aa0000;*/
+    font-size: 50px;
+}
