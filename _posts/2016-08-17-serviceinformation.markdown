@@ -2,6 +2,7 @@
 title: Service Information
 layout: post
 date: 2016-08-17 15:00:00
+description: "I am not going to sell the actual bot. Rather, I am going to be hosting a fame train bot ***service***."
 ---
 
 I am not going to sell the actual bot. Rather, I am going to be hosting a fame train bot service. 
