@@ -5,6 +5,17 @@
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
+  <!--metadata-->
+  <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+  <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:image" content="http://pixelzerg.github.io/images/PZ/BasicShade2RS.png">
+
   <title>
     {% if page.title %}
       {{ page.title }} &middot; {{ site.title }}
@@ -18,6 +29,7 @@
   <link rel="stylesheet" href="{{ site.url }}/public/css/syntax.css">
   <link rel="stylesheet" href="{{ site.url }}/public/css/lanyon.css">
   <link rel="stylesheet" href="{{ site.url }}/public/css/PZ.css">
+  <link rel="stylesheet" href="{{ site.url }}/public/css/jquery.floating-social-share.min.css">
   {% comment %}<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">{% endcomment %}
 
   {% comment %}
@@ -29,7 +41,26 @@
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.url }}/atom.xml">
 
-  <!--Analytics-->
+  <!--Script References-->
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script src="{{ site.url }}/public/js/jquery.floating-social-share.min.js"></script>
+
+  <!-- Scripts -->
+  <script>
+  window.onload = function () {
+  $("body").floatingSocialShare({
+      counter: true, // set to false for hiding the counters of buttons
+      buttons: ["facebook", "google-plus", "twitter", "linkedin", "pinterest", "reddit", "tumblr"],  // all of the currently avalaible social buttons
+      title: document.title, // your title, default is current page's title
+      url: window.location.href,  // your url, default is current page's url
+      text: "share with ", // the title of a tags
+      description: $('meta[name="description"]').attr("content"), // your description, default is current page's description
+      media: $('meta[property="og:image"]').attr("content"), // pinterest media
+      popup_width: 400, // the sharer popup width, default is 400px
+      popup_height: 300 // the sharer popup height, default is 300px
+  });
+  }
+  </script>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -39,4 +70,5 @@
   ga('create', 'UA-70240671-2', 'auto');
   ga('send', 'pageview');
   </script>
+
 </head>
