@@ -12,8 +12,8 @@ description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jeky
 url:              http://lanyon.getpoole.com
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'PixelZerg'
+  url:            'https://pixelzerg.github.io'
 
 paginate:         5
 
@@ -22,3 +22,6 @@ version:          2.0.0
 
 github:
   repo:           https://github.com/poole/lanyon
+
+url: http://pixelzerg.github.io/PixelZFameBotInfo
+domain: pixelzerg.github.io/PixelZFameBotInfo
