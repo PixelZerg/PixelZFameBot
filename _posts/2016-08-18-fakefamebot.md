@@ -32,11 +32,11 @@ Now let me highlight why this faker is so pathetic and amusing:
 Whoops, looks like the faker forgot to do his homework!
 
 Now here's an ode to all of the attention this faker stirred up:
-<img src="{{ site.url }}/public/poststuff/fakefamebot/ode2.PNG" class=".odeimg">
-<img src="{{ site.url }}/public/poststuff/fakefamebot/ode3.PNG" class=".odeimg">
-<img src="{{ site.url }}/public/poststuff/fakefamebot/ode4.PNG" class=".odeimg">
-<img src="{{ site.url }}/public/poststuff/fakefamebot/ode5.PNG" class=".odeimg">
-<img src="{{ site.url }}/public/poststuff/fakefamebot/ode6.PNG" class=".odeimg">
-<img src="{{ site.url }}/public/poststuff/fakefamebot/ode7.PNG" class=".odeimg">
-<img src="{{ site.url }}/public/poststuff/fakefamebot/ode8.PNG" class=".odeimg">
-<img src="{{ site.url }}/public/poststuff/fakefamebot/ode9.PNG" class=".odeimg">
+<img src="{{ site.url }}/public/poststuff/fakefamebot/ode2.PNG" class="odeimg">
+<img src="{{ site.url }}/public/poststuff/fakefamebot/ode3.PNG" class="odeimg">
+<img src="{{ site.url }}/public/poststuff/fakefamebot/ode4.PNG" class="odeimg">
+<img src="{{ site.url }}/public/poststuff/fakefamebot/ode5.PNG" class="odeimg">
+<img src="{{ site.url }}/public/poststuff/fakefamebot/ode6.PNG" class="odeimg">
+<img src="{{ site.url }}/public/poststuff/fakefamebot/ode7.PNG" class="odeimg">
+<img src="{{ site.url }}/public/poststuff/fakefamebot/ode8.PNG" class="odeimg">
+<img src="{{ site.url }}/public/poststuff/fakefamebot/ode9.PNG" class="odeimg">
