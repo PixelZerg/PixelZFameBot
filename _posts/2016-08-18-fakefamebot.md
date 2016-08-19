@@ -5,8 +5,8 @@ description: "Fakers have been spreading lies and trying to trick people into do
 date: 2016-8-18 2:14:38
 ---
 
-<div class="centerwrapper"><img src="{{ site.url }}/public/poststuff/fakefamebot/1.png"></div>
-<img src="{{ site.url }}/public/poststuff/fakefamebot/11.png">
+<div class="centerwrapper"><img src="{{ site.url }}/public/poststuff/fakefamebot/1.PNG"></div>
+<img src="{{ site.url }}/public/poststuff/fakefamebot/11.PNG">
 
 You might have even spotted them yourself, but there are some accounts, presumably made by the same person, in ROTMG that are spamming in the fame train server's nexus that PixelZFameBot - "PixelZerg's Fame Bot" - has been leaked (lol) and that by downloading the program from the link provided, you will be able to get the Fame Bot for free. The majority of you will have, just from this description, instantly guessed that this is obviously not genuine. But in case there is any confusion, let me make this crystal clear:
 
@@ -33,15 +33,14 @@ Whoops, looks like the faker forgot to do his homework!
 
 Now here's an ode to all of the attention this faker stirred up:
 <script src="https://npmcdn.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
-<img src="{{ site.url }}/public/poststuff/fakefamebot/ode1.png" class=".odegrid">
-<img src="{{ site.url }}/public/poststuff/fakefamebot/ode2.png" class=".odegrid">
-<img src="{{ site.url }}/public/poststuff/fakefamebot/ode3.png" class=".odegrid">
-<img src="{{ site.url }}/public/poststuff/fakefamebot/ode4.png" class=".odegrid">
-<img src="{{ site.url }}/public/poststuff/fakefamebot/ode5.png" class=".odegrid">
-<img src="{{ site.url }}/public/poststuff/fakefamebot/ode6.png" class=".odegrid">
-<img src="{{ site.url }}/public/poststuff/fakefamebot/ode7.png" class=".odegrid">
-<img src="{{ site.url }}/public/poststuff/fakefamebot/ode8.png" class=".odegrid">
-<img src="{{ site.url }}/public/poststuff/fakefamebot/ode9.png" class=".odegrid">
+<img src="{{ site.url }}/public/poststuff/fakefamebot/ode2.PNG" class=".odegrid">
+<img src="{{ site.url }}/public/poststuff/fakefamebot/ode3.PNG" class=".odegrid">
+<img src="{{ site.url }}/public/poststuff/fakefamebot/ode4.PNG" class=".odegrid">
+<img src="{{ site.url }}/public/poststuff/fakefamebot/ode5.PNG" class=".odegrid">
+<img src="{{ site.url }}/public/poststuff/fakefamebot/ode6.PNG" class=".odegrid">
+<img src="{{ site.url }}/public/poststuff/fakefamebot/ode7.PNG" class=".odegrid">
+<img src="{{ site.url }}/public/poststuff/fakefamebot/ode8.PNG" class=".odegrid">
+<img src="{{ site.url }}/public/poststuff/fakefamebot/ode9.PNG" class=".odegrid">
 <script>
 $('.grid').masonry({
   itemSelector: '.odegrid',
