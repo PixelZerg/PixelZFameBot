@@ -42,6 +42,7 @@ Now here's an ode to all of the attention this faker stirred up:
 <img src="{{ site.url }}/public/poststuff/fakefamebot/ode8.PNG" class="odeimg">
 <img src="{{ site.url }}/public/poststuff/fakefamebot/ode9.PNG" class="odeimg">
 {% endcomment %}
+</div></div>
 <div class="pics">
   <a href="{{ site.url }}/public/poststuff/fakefamebot/ode2.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode2.PNG" class="odeimg"></a>
   <a href="{{ site.url }}/public/poststuff/fakefamebot/ode3.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode3.PNG" class="odeimg"></a>
@@ -76,3 +77,4 @@ owl.owlCarousel({
     }
 });
 </script>
+<div><div>
