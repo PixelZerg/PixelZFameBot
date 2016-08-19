@@ -7,7 +7,6 @@ layout: default
   <span class="post-date">{% assign d = page.date | date: "%-d" %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %} {% assign m = page.date | date: "%B" %}{% case m %}{% when 'April' or 'May' or 'June' or 'July' %}{{ m }}{% when 'September' %}Sept.{% else %}{{ page.date | date: "%b" }}.{% endcase %} {{ page.date | date: '%Y - %I:%M %p' }}</span>
   {{ content }}
 </div>
-{% include disqus.html %}
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
@@ -23,3 +22,4 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+{% include disqus.html %}
