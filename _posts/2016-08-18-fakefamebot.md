@@ -57,9 +57,9 @@ Now here's an ode to all of the attention this faker stirred up:
 var owl = $('.pics');
 owl.owlCarousel({
     loop:  true,
-    center: true,
+    center: false,
     margin:20,
-    autoWidth:true,
+    autoWidth:false,
     autoHeight:true,
     nav: true,
     navText: [
