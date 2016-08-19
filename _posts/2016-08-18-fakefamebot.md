@@ -32,6 +32,7 @@ Now let me highlight why this faker is so pathetic and amusing:
 Whoops, looks like the faker forgot to do his homework!
 
 Now here's an ode to all of the attention this faker stirred up:
+{% comment %}
 <img src="{{ site.url }}/public/poststuff/fakefamebot/ode2.PNG" class="odeimg">
 <img src="{{ site.url }}/public/poststuff/fakefamebot/ode3.PNG" class="odeimg">
 <img src="{{ site.url }}/public/poststuff/fakefamebot/ode4.PNG" class="odeimg">
@@ -40,3 +41,38 @@ Now here's an ode to all of the attention this faker stirred up:
 <img src="{{ site.url }}/public/poststuff/fakefamebot/ode7.PNG" class="odeimg">
 <img src="{{ site.url }}/public/poststuff/fakefamebot/ode8.PNG" class="odeimg">
 <img src="{{ site.url }}/public/poststuff/fakefamebot/ode9.PNG" class="odeimg">
+{% endcomment %}
+<div class="pics">
+  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode2.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode2.PNG"></a>
+  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode3.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode3.PNG"></a>
+  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode4.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode4.PNG"></a>
+  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode5.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode5.PNG"></a>
+  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode6.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode6.PNG"></a>
+  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode7.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode7.PNG"></a>
+  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode8.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode8.PNG"></a>
+  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode9.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode9.PNG"></a>
+</div>
+<script src="{{ site.url }}/public/js/owl-carousel.min.js"></script>
+<script>
+var owl = $('.pics');
+owl.owlCarousel({
+    loop:  true,
+    center: true,
+    margin:20,
+    autoWidth:true,
+    autoHeight:true,
+    nav: true,
+    navText: [
+    '<i class="fa fa-chevron-left"></i>',
+    '<i class="fa fa-chevron-right"></i>'
+    ],
+    responsive:{
+      0:{
+        items:1
+      },
+      720:{
+        items:2
+      }
+    }
+});
+</script>
