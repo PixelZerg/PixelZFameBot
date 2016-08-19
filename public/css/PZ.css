@@ -30,3 +30,18 @@ html {
     margin-bottom: 20px;
     padding: 25px 15px;
 }
+
+.owl-carousel .owl-item img{
+	margin-top: 15px;
+}
+
+.owl-carousel{
+	position: relative;
+    width: 100vw;
+    left: calc(-50vw + 50%);
+    background-color: rgba(34,34,34,1);
+}
+
+.owl-stage{
+    background-color: rgba(34,34,34,1);
+}
