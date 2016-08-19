@@ -1,3 +1,7 @@
+gems:
+  - jemoji
+  - jekyll-sitemap
+
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
