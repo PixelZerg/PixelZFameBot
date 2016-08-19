@@ -5,8 +5,8 @@ description: "Fakers have been spreading lies and trying to trick people into do
 date: 2016-8-18 2:14:38
 ---
 
-<div class="centerwrapper"><img src="{{ site.url }}/public/poststuff/fakefamebot/1.PNG"></div>
-<img src="{{ site.url }}/public/poststuff/fakefamebot/11.PNG">
+<div class="centerwrapper"><img src="{{ site.url }}/public/poststuff/fakefamebot/1.png"></div>
+<div class="centerwrapper"><img src="{{ site.url }}/public/poststuff/fakefamebot/11.png"></div>
 
 You might have even spotted them yourself, but there are some accounts, presumably made by the same person, in ROTMG that are spamming in the fame train server's nexus that PixelZFameBot - "PixelZerg's Fame Bot" - has been leaked (lol) and that by downloading the program from the link provided, you will be able to get the Fame Bot for free. The majority of you will have, just from this description, instantly guessed that this is obviously not genuine. But in case there is any confusion, let me make this crystal clear:
 
