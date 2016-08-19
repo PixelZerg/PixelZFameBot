@@ -11,7 +11,7 @@ date: 2016-8-18 2:14:38
   <span class="post-date">{% assign d = page.date | date: "%-d" %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %} {% assign m = page.date | date: "%B" %}{% case m %}{% when 'April' or 'May' or 'June' or 'July' %}{{ m }}{% when 'September' %}Sept.{% else %}{{ page.date | date: "%b" }}.{% endcase %} {{ page.date | date: '%Y - %I:%M %p' }}</span>
 <div class="centerwrapper"><img src="{{ site.url }}/public/poststuff/fakefamebot/1.png"></div>
 <div class="centerwrapper"><img src="{{ site.url }}/public/poststuff/fakefamebot/11.png"></div>
-
+{% capture moo %}
 You might have even spotted them yourself, but there are some accounts, presumably made by the same person, in ROTMG that are spamming in the fame train server's nexus that PixelZFameBot - "PixelZerg's Fame Bot" - has been leaked (lol) and that by downloading the program from the link provided, you will be able to get the Fame Bot for free. The majority of you will have, just from this description, instantly guessed that this is obviously not genuine. But in case there is any confusion, let me make this crystal clear:
 
 
@@ -36,6 +36,8 @@ Now let me highlight why this faker is so pathetic and amusing:
 Whoops, looks like the faker forgot to do his homework!
 
 Now here's an ode to all of the attention this faker stirred up:
+{% endcapture %}
+{{ moo | markdownify }}
 {% comment %}
 <img src="{{ site.url }}/public/poststuff/fakefamebot/ode2.PNG" class="odeimg">
 <img src="{{ site.url }}/public/poststuff/fakefamebot/ode3.PNG" class="odeimg">
