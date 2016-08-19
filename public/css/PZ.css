@@ -45,3 +45,7 @@ html {
 .owl-stage{
     background-color: rgba(34,34,34,1);
 }
+
+.owl-theme .owl-controls .owl-nav [class*='owl-'] {
+    background: transparent;
+}
