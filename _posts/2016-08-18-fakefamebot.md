@@ -43,14 +43,14 @@ Now here's an ode to all of the attention this faker stirred up:
 <img src="{{ site.url }}/public/poststuff/fakefamebot/ode9.PNG" class="odeimg">
 {% endcomment %}
 <div class="pics">
-  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode2.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode2.PNG"></a>
-  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode3.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode3.PNG"></a>
-  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode4.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode4.PNG"></a>
-  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode5.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode5.PNG"></a>
-  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode6.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode6.PNG"></a>
-  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode7.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode7.PNG"></a>
-  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode8.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode8.PNG"></a>
-  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode9.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode9.PNG"></a>
+  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode2.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode2.PNG" class="odeimg"></a>
+  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode3.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode3.PNG" class="odeimg"></a>
+  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode4.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode4.PNG" class="odeimg"></a>
+  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode5.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode5.PNG" class="odeimg"></a>
+  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode6.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode6.PNG" class="odeimg"></a>
+  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode7.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode7.PNG" class="odeimg"></a>
+  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode8.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode8.PNG" class="odeimg"></a>
+  <a href="{{ site.url }}/public/poststuff/fakefamebot/ode9.PNG" data-lightbox="pics"><img src="{{ site.url }}/public/poststuff/fakefamebot/ode9.PNG" class="odeimg"></a>
 </div>
 <script src="{{ site.url }}/public/js/owl-carousel.min.js"></script>
 <script>
