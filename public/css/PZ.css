@@ -49,3 +49,17 @@ html {
 .owl-theme .owl-controls .owl-nav [class*='owl-'] {
     background: transparent;
 }
+
+.cimg{
+    height: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 80%;
+    min-width: 100%;
+    background-attachment: initial;
+    background-position: 0;
+    background-position-x: 50%;
+    border-top: rgba(162,162,162,1) solid 3px;
+}

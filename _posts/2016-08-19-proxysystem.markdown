@@ -8,12 +8,12 @@ description: "Introducing my new, elaborate proxy system. This time, if someone 
 NB: You might want to read this article first before proceeding if you have not already: <a href="{{ site.url }}/2016/08/serviceinformation/">Service Information</a>
 
 Here is a diagram representing what I had in mind originally for the PixelZFameBot service:
-<img src="{{ site.url }}/public/poststuff/proxysystem/fameservicelinear.png" class="odeimg">
+<div style="background-image: Url({{ site.url }}/public/poststuff/proxysystem/fameservicelinear.png);" class="odeimg cimg"></div>
 
 However, there is a *fatal flaw* with this setup. If, hypothetically of course, someone were to get ip-banned whilst using PixelZFameBot, the PixelZFameBot server's ip would be the one that is banned. This is because in the eyes of the ROTMG servers, the PixelZFameBot server is the one that is connecting to the ROTMG servers and so the ip address to that should be banned.
 
 To avoid this issue, the PixelZFameBot service will now use a far more elaborate setup which looks like this:
-<img src="{{ site.url }}/public/poststuff/proxysystem/fameservice2.png" class="odeimg">
+<div style="background-image: Url({{ site.url }}/public/poststuff/proxysystem/fameservice2.png);" class="odeimg cimg"></div>
 
 To briefly explain the diagram, the red lines represent the outgoing packets and the blue lines represent the incoming packets. As you can see, everything is the same as in the previous setup, however, in this setup, the PixelZFameBot server will send the modified packets back to the **Local Bridge** and then the local bridge will connect to the ROTMG servers. Now, in the eyes of the ROTMG servers, the one that is connecting to the ROTMG servers is the **Local Bridge** (which is running on your computer so i.e YOU). That means the ROTMG servers will send the outgoing packets to the Local Bridge, which will then get sent to the PixelZFameBot server where it may or may not be altered. Then the PixelZFameBot will send that back to the LocalBridge, which will pass that onto the ROTMG Client. So now what this means is that since in the eyes of the ROTMG servers, the Local Bridge is the one connecting to the ROTMG servers, if you ever get ip-banned whilst using the PixelZFameBot service, it will be only your ip-address that is ip banned.
 
