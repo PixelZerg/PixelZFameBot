@@ -59,7 +59,7 @@ owl.owlCarousel({
     loop:  true,
     center: true,
     margin:20,
-    autoWidth:false,
+    autoWidth:true,
     autoHeight:true,
     nav: true,
     navText: [
@@ -71,7 +71,7 @@ owl.owlCarousel({
         items:1
       },
       720:{
-        items:1
+        items:2
       }
     }
 });
