@@ -22,5 +22,6 @@ Obviously, there is some risk that when using the bot that you will be banned. I
 Going back to the PixelZFameBot setup, I have just now finished my first working prototype of this connection system and it seems to be working well:
 
 {% include youtubevid.html code="qHttX71tU9E" %}
+<small>Just in case anyone was wondering: The terminal on the top left is the local bridge's output. When the bridge receives a packet, "(sender)> (packet length)!" is outputted and when the bridge successfully passes on that packet, "(input) --> (where the packet is being passed)". The terminal on the top right is the PixelZFameBot server's output. The PixelZFameBot server is outputting the received packet lengths + 4. The terminal on the bottom right is of a buffer to the ROTMG server and it is outputting the packet IDs of the packets that the ROTMG servers are receiving and sending.</small>
 
 Good progress has been made on the development of this service! :smile:
