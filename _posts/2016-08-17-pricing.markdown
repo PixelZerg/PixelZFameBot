@@ -4,4 +4,4 @@ layout: post
 date: 2016-08-17 20:52:11
 ---
 
-The service is **NOT** going to be free. You will need to pay for each week that you use the bot. There will most likely also be different time periods and correspondingly cheaper or more expensive prices for them (including a lifetime subscription and also perhaps a free trial). The price for 1 week is currently going to be around £4.99, however that might change in the future. If I gave away this service for free, the game would most likely die the instant I released it.
+The service is **NOT** going to be free. You will need to pay for each week that you use the bot. There will most likely also be different time periods and correspondingly cheaper or more expensive prices for them. The price for 1 week is currently going to be around £4.99, however that might change in the future. If I gave away this service for free, the game would most likely die the instant I released it.
