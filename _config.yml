@@ -21,7 +21,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          '0.0.1 Alpha'
+version:          '0.0.2 Alpha'
 
 url: https://pixelzerg.github.io/PixelZFameBotInfo
 domain: pixelzerg.github.io/PixelZFameBot
