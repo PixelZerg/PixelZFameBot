@@ -13,6 +13,6 @@ I have had countless sleepless nights and I even worked on PixelZFameBot for the
 
 Also, check out that awesome account fame on my PixelZFameBot test dummy - 42.7K!
 
-PS: If you want to be a beta tester, let me know.
+PS: If you want to be a beta tester, let me know. See here for more info: <a href="Beta Testing">{{ site.url }}/2016/08/betatesting/</a>
 
 <small>EDIT: Updated the video</small>
