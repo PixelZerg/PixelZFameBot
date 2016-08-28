@@ -14,3 +14,5 @@ The program currently has some fatal bugs such as the client lagging out, the se
 If you do wish to apply to be a beta tester, please send your applications to <strong>pixelzerg@gmail.com</strong> with the subject <strong>PixelZFameBot Beta Testing</strong> and include in the email what you bring to the table.
 
 NB: I still have some stuff to wrap up before I begin beta testing and that might take a while.
+
+EDIT: Also, I forgot to mention - the bot currently only works on Windows and you will need the latest .Net Framework to run it.
