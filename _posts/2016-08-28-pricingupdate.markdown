@@ -17,7 +17,7 @@ The PixelZFameBot will be a paid subscription. Here are the different subscripti
 	<tr>
 		<td>1</td>
 		<td>1 Week</td>
-		<td>£4.99</td>
+		<td>£4.49</td>
 		<td>$5.90</td>
 	</tr>
 	<tr>
