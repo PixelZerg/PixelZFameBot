@@ -10,7 +10,7 @@ This website now has a cool new feature that I added - you can change the displa
 Step 1 - write the command "LauncherDisplay();":
 <div class="jimg"><img src="{{ site.url }}/public/poststuff/launcherdisplay/1.PNG"></div>
 
-Step 2 - press enter and be amazed:
+Step 2 - press enter. Wow:
 <div class="jimg"><img src="{{ site.url }}/public/poststuff/launcherdisplay/2.PNG"></div>
 
 lol.
