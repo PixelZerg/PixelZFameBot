@@ -92,3 +92,8 @@ html .pzcontainer{
         font-size: 20px;
     }
 }
+
+.emoji{
+    margin-bottom: 5px;
+    display: inline;
+}
