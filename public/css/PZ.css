@@ -66,5 +66,25 @@ html {
 }
 
 .space {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.pzcontainer{
+    max-width: 100%;
+}
+
+@media (min-width: 960px){
+    .pzcontainer {
+        max-width: 960px;
+    }
+}
+
+html .pzcontainer{
+    font-size: 18px;
+}
+
+@media (min-width: 720px){
+    html .pzcontainer {
+        font-size: 20px;
+    }
 }
