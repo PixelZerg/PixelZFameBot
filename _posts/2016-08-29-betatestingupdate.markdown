@@ -1,4 +1,5 @@
 ---
+title: No Beta Testing 
 layout: post
 date: 2016-08-29 11:14:08
 description: "A turn of events means that closed beta testing is no longer required and the release of PixelZFameBot has gotten closer!"
