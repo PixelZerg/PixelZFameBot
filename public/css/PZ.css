@@ -64,3 +64,7 @@ html {
     height: auto;
     width: 100%;
 }
+
+.space {
+    margin-bottom: 2rem;
+}
