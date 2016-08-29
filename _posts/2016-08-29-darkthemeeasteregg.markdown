@@ -1,5 +1,5 @@
 ---
-title: darkthemeeasteregg
+title: A Cool Little Easter Egg
 layout: post
 date: 2016-08-29 16:07:41
 description: "Make the website darker - a cool new easter egg."
