@@ -59,7 +59,7 @@ html {
     display: block;
     overflow: hidden;
 }
-.jimg img{
+.jimg *{
     position: relative;
     height: auto;
     width: 100%;
