@@ -21,9 +21,9 @@ author:
 paginate:         10
 
 # Custom vars
-version:          '0.0.2 Alpha'
+version:          '0.3.0 Alpha'
 
 url: https://pixelzerg.github.io/PixelZFameBotInfo
 domain: pixelzerg.github.io/PixelZFameBot
 
-releasenote: "Closed beta testing will begin in the near future."
+releasenote: "Still a while to go."
