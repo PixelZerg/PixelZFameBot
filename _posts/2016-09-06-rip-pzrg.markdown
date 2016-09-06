@@ -1,0 +1,14 @@
+---
+title: RIP Pzrg
+layout: post
+description: "Pzrg finally got banned. Took them long enough xD"
+---
+
+Pzrg's name has been absolutely everywhere and you have no idea how many reports people have sent in to DECA. I openly said that I was a fame train bot whenever I went into the realm, not to mention the obvious chat bot. You would think it would have been noticed immediately and shut down, right? Nope! It took DECA 40 days to finally raise the ban hammer. During which time (even though I only used the bot for testing changes to the code), I managed to accumulate 52,560 account fame and got to 107th on the realmeye account fame leaderboard.
+
+<div class="centerwrapper"><img src="{{ site.url }}/public/poststuff/rip-pzrg/realmeye.PNG"></div>
+
+Lol. RIP pzrg, it was about time.
+<div class="centerwrapper"><img src="{{ site.url }}/public/poststuff/rip-pzrg/rip.png"></div>
+
+PS: all of my other accounts also got banned at the same time - but who cares about those, right?
