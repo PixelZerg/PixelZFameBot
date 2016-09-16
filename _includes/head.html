@@ -79,7 +79,7 @@
   </script>
 
   <script>
-function Darken(){
+function LauncherDisplay(){
   $("body").css("background-color","#111");
   $("body").css("color","#aaa");
   $("a").css("color","#336666");
@@ -90,21 +90,12 @@ function Darken(){
   $(".post-date").css("color","#aaa");
   $("strong").css("color","#fff");
   $("tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th").css("background-color","#000");
-  $("td, th").css("border-color","#333");
-}
-function Strip(){
-  $(".masthead").html("");
+  $("td, th").css("border-color","#333");$(".masthead").html("");
   $(".masthead").attr("class","space");
   $("#floatingSocialShare").remove();
   $(".container.content").attr("class","pzcontainer content");
   $("#disqus_thread").remove();
-  $(".related").html("<button class=\"button\" style=\"display: flex;overflow: hidden;margin: 10px;padding: 12px 12px;cursor: pointer;user-select: none;transition: all 60ms ease-in-out;text-align: center;white-space: nowrap;text-decoration: none !important;text-transform: none;text-transform: capitalize;color: #aaa;border: 0 none;border-radius: 4px;font-size: 14px;font-weight: 500;line-height: 1.3;-webkit-appearance: none;-moz-appearance: none;appearance: none;justify-content: center;align-items: center;flex: 0 0 160px;background: #505050;margin-left: 20%;width: 60%;\" onclick=\"window.history.back()\">Go Back<\/button>");
-}
-function LauncherDisplay(){
-  Darken();Strip();UpdateSize();try{resizeVideo();}catch(e){}
-}
-function UpdateSize(){
-  $("a").css("font-size","0.6rem");
+  $(".related").html("<button class=\"button\" style=\"display: flex;overflow: hidden;margin: 10px;padding: 12px 12px;cursor: pointer;user-select: none;transition: all 60ms ease-in-out;text-align: center;white-space: nowrap;text-decoration: none !important;text-transform: none;text-transform: capitalize;color: #aaa;border: 0 none;border-radius: 4px;font-size: 14px;font-weight: 500;line-height: 1.3;-webkit-appearance: none;-moz-appearance: none;appearance: none;justify-content: center;align-items: center;flex: 0 0 160px;background: #505050;margin-left: 20%;width: 60%;\" onclick=\"window.history.back()\">Go Back<\/button>");$("a").css("font-size","0.6rem");
 $("p").css("font-size","0.6rem");
 $("p").css("margin-bottom","0.1rem");
 $("body").css("font-size","0.6rem");
@@ -112,6 +103,7 @@ $(".post-date").css("font-size","0.6rem");
 $(".page-title, .post-title, .post-title a").css("font-size","1rem");
 $(".page, .post").css("margin-bottom","2em");
 $(".post-date").css("margin-bottom","0.3rem");
+try{resizeVideo();}catch(e){}
 }
 </script>
 
